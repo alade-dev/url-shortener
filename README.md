@@ -45,7 +45,6 @@ Copy the env example file.
 cp .env.example .env
 ```
 
-
 The NestJS server has 2 Docker Compose files. In both file, you need to update the name of the containers and networks where it says `# Needs updating`.
 
 For example, here's an updated `docker-compose.yml` file for a project called "Url Shortener":
@@ -111,7 +110,7 @@ pnpm docker:start
 Then run this script to apply the migration to your local Postgres database:
 
 ```shell
-pnpm db:migrate:dev
+
 ```
 
 And that's it!
